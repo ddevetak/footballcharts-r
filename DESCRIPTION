@@ -1,0 +1,20 @@
+Package: footballcharts
+Type: Package
+Title: Client for the 'Football Charts' Keyless Football Data and Probability API
+Version: 0.2.0
+Authors@R: person("Damir", "Devetak", email = "contact@football-charts.com", role = c("aut", "cre"))
+Description: Access match results, half-time scores, goal-minute timestamps,
+    standings, upcoming fixtures, Dixon-Coles (1997) match probabilities, and
+    10,000-simulation Monte Carlo season projections across 98 football leagues
+    worldwide via the free, keyless 'Football Charts' REST API
+    (<https://www.football-charts.com/developers>). Also provides local
+    implementations of the Dixon-Coles bivariate score matrix, exact O(n^2)
+    Poisson-Binomial shot-xG convolution, and Power/Shin bookmaker margin
+    removal (<https://www.football-charts.com/tools/dixon-coles-calculator>).
+License: MIT + file LICENSE
+Encoding: UTF-8
+URL: https://www.football-charts.com, https://www.football-charts.com/developers, https://www.football-charts.com/tools/dixon-coles-calculator, https://github.com/ddevetak/footballcharts-r
+BugReports: https://github.com/ddevetak/footballcharts-r/issues
+Depends: R (>= 4.0.0)
+Imports: jsonlite, stats, utils
+NeedsCompilation: no
